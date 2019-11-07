@@ -7,12 +7,12 @@ def my_each (array)
     array
   end
   
-  def my_collect(array)
+def hello(array)
   i = 0
-  collect = []
+  collection = []
   while i < array.length
-    collect << yield(array[i])
-    i+=1
+    collection << yield(array[i])
+    i += 1
   end
-  collect
+  collection
 end
